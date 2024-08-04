@@ -1,30 +1,4 @@
 <?php
-
-/* 
-    RETURN DATA 
-
-    {
-        "printer_station" : [
-            {
-                "id_printer" : ....
-                "id_order" : ....
-                "produks" : []
-            }
-        ]
-        "bill" : {
-            "id_order" : ...
-            "meja" : ...
-            "items" : [
-                "nama" : ...
-                "harga" : ...
-                "jumlah : ...
-            ]
-            "total" : ...
-        }
-    }
-
-*/
-
 namespace App\Http\Controllers;
 
 use App\Models\kategoriModel;
